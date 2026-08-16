@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+*.spec.bak
+
+# secrets and local credentials
+*.json
+!package.json
+app_settings.json
+drive_token.json
+oauth_client.json
+service_account.json
+browser_profile/
+browser_profile_*/
+chrome_debug_profile/
+
+# local run outputs
+*.csv
+outputs/
+property_photos/
+properties_gui.csv
